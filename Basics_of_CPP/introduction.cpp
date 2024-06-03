@@ -45,4 +45,30 @@ int main()
 
     //     cout << "Prime Nummber";
     // }
+
+
+
+    // find the nth number of fibonacci series
+    //   int number;
+    //     cout << "Enter the Nth number you want to find: ";
+    //     cin >> number;
+
+    //     int last = 0;
+    //     int current = 1;
+    //     int next;
+
+    //     if (number == 0)
+    //         cout << "Nth number is " << last;
+    //     else if (number == 1)
+    //         cout << "Nth number is " << current;
+    //     else {
+    //         for (int i = 2; i <= number; ++i) {
+    //             next = last + current;
+    //             last = current;
+    //             current = next;
+    //         }
+    //         cout << "Nth number is " << current;
+    //     }
+
+    //     return 0;
 }
