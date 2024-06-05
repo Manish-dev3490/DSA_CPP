@@ -21,9 +21,6 @@ int main()
     // cout << "Answer is " << answer;
     // return 0;
 
-
-
-
     // Check wheather number is prime or not
     // int number;
     // cout << "Enter the number you want to check";
@@ -45,8 +42,6 @@ int main()
 
     //     cout << "Prime Nummber";
     // }
-
-
 
     // find the nth number of fibonacci series
     //   int number;
@@ -70,5 +65,27 @@ int main()
     //         cout << "Nth number is " << current;
     //     }
 
+    //     return 0;
+
+
+
+
+
+    //   a a a a a
+    //   b b b b b
+    //    c c c c c
+    //    c c c c c
+    //    c c c c c
+
+    // char end='e';
+
+    // for (char val='a';val<='e';val=val+1){
+    //     for (int i = 0; i <=5; i++)
+    //     {
+    //         cout<<val<<" ";
+    //     }
+    //     cout<<endl;
+
+    // }
     //     return 0;
 }
