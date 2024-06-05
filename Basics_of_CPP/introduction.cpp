@@ -43,6 +43,9 @@ int main()
     //     cout << "Prime Nummber";
     // }
 
+
+
+
     // find the nth number of fibonacci series
     //   int number;
     //     cout << "Enter the Nth number you want to find: ";
@@ -69,13 +72,11 @@ int main()
 
 
 
-
-
     //   a a a a a
     //   b b b b b
-    //    c c c c c
-    //    c c c c c
-    //    c c c c c
+    //   c c c c c
+    //   c c c c c
+    //   c c c c c
 
     // char end='e';
 
@@ -88,4 +89,53 @@ int main()
 
     // }
     //     return 0;
+
+
+
+    // Printing Number pattern from 1 to 25
+    // int count =1;
+    // for(int row=1;row<=5;row++){
+    //     for (int col=1;col<=5;col++){
+    //         cout<<count<<" ";
+    //         count=count+1;
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+    // Printing medium level patterns now 
+    // for(int r=1;r<=5;r++){
+    //     for (int c=1;c<=r;c++){
+    //         cout<<c<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+
+    // for(int row=1;row<=5;row++){
+    //     for(int col=1;col<=row;col++){
+    //         cout<<row<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+
+    // for(int row=1;row<=5;row++){
+    //     for(int col=row ; col>=1; col--){
+    //         cout<<col<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+
+    // char end ='e';
+    // for(char val='a';val<=end;val++){
+    //     for(char val2='a';val2<=val;val2++){
+    //         cout<<val<<" ";
+    //     }
+
+    //     cout<<endl;
+    // }
+
 }
