@@ -1,6 +1,7 @@
 #include <iostream>
 using namespace std;
 
+// data types conditionals loops operators functions are covered in this file
 int main()
 {
 
@@ -43,9 +44,6 @@ int main()
     //     cout << "Prime Nummber";
     // }
 
-
-
-
     // find the nth number of fibonacci series
     //   int number;
     //     cout << "Enter the Nth number you want to find: ";
@@ -70,8 +68,6 @@ int main()
 
     //     return 0;
 
-
-
     //   a a a a a
     //   b b b b b
     //   c c c c c
@@ -90,8 +86,6 @@ int main()
     // }
     //     return 0;
 
-
-
     // Printing Number pattern from 1 to 25
     // int count =1;
     // for(int row=1;row<=5;row++){
@@ -102,16 +96,13 @@ int main()
     //     cout<<endl;
     // }
 
-
-
-    // Printing medium level patterns now 
+    // Printing medium level patterns now
     // for(int r=1;r<=5;r++){
     //     for (int c=1;c<=r;c++){
     //         cout<<c<<" ";
     //     }
     //     cout<<endl;
     // }
-
 
     // for(int row=1;row<=5;row++){
     //     for(int col=1;col<=row;col++){
@@ -120,14 +111,12 @@ int main()
     //     cout<<endl;
     // }
 
-
     // for(int row=1;row<=5;row++){
     //     for(int col=row ; col>=1; col--){
     //         cout<<col<<" ";
     //     }
     //     cout<<endl;
     // }
-
 
     // char end ='e';
     // for(char val='a';val<=end;val++){
@@ -138,7 +127,6 @@ int main()
     //     cout<<endl;
     // }
 
-
     // for (int row=5; row>=1;row--){
     //     for(int col=row;col>=1;col--){
     //         cout<<"*"<<" ";
@@ -146,4 +134,118 @@ int main()
 
     //     cout<<endl;
     // }
+
+    // for (int row=5;row>=1;row--){
+    //     for(int col=1;col<=row;col++){
+    //         cout<<col<<" ";
+    //     }
+    //     cout<<endl;
+    // }
+
+    // Hard pattern Problems starts fromm here
+
+    // for(int row=1;row<=5;row++){
+    //     for(int space=1;space<=5-row;space++){
+    //         cout<<" ";
+    //     }
+
+    //     for(int col=1; col<=row; col++){
+    //         cout<<"*";
+    //     }
+    //     cout<<endl;
+    // }
+
+
+
+    // int number;
+    // cout << "Enter the number you want to print patter for" << "  ";
+    // cin >> number;
+
+    // for (int row = 1; row <= number; row++)
+    // {
+    //     for (int space = 1; space <= number - row; space++)
+    //     {
+    //         cout << "  ";
+    //     }
+
+    //     for (int col = 1; col <= row; col++)
+    //     {
+    //         cout << row << " ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+
+
+
+    // int number;
+    // cout << "Enter the number you want to print patter for" << "  ";
+    // cin >> number;
+
+    // for (int row = 1; row <= number; row++)
+    // {
+    //     for (int space = 1; space <= number - row; space++)
+    //     {
+    //         cout << "  ";
+    //     }
+
+    //     for (int col = 1; col <= row; col++)
+    //     {
+    //         cout << col << " ";
+    //     }
+
+    //     cout << endl;
+    // }
+
+
+
+    //  int n;
+    //  cout<<"enter the number you want to  print pattern for "<<" ";
+    //  cin>>n;
+    // for(int row=1; row<=n; row++){
+    //     for(int space=1; space<=n-row; space++){
+    //         cout<<"  ";
+    //     }
+
+    //     for(char val='A'; val<'A'+row; val++){
+    //         cout<<val<<" ";
+    //     }
+
+    //     cout<<endl;
+    // }
+
+    // int n;
+    //  cout<<"enter the number you want to  print pattern for "<<" ";
+    //  cin>>n;
+    // for(int row=1; row<=n; row++){
+    //     for (int  space = 0; space <n-row; space++)
+    //     {
+    //         cout<<"  ";
+    //     }
+    //     for (int col = row; col>=1; col--)
+    //     {
+    //         cout<<col<<" ";
+    //     }
+
+    //     cout<<endl;
+        
+    // }
+
+
+
+    // for(int row=1; row<=5; row++){
+    //     for(int space=1; space<=5-row; space++){
+    //         cout<<"  "; 
+    //     }
+
+    //     for(int star=1; star<=(row*2)-1; star++){
+    //         cout<<"*"<<" ";
+    //     }
+
+    //     cout<<endl;
+    // }
+
+
+    
 }
