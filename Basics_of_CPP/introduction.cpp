@@ -155,8 +155,6 @@ int main()
     //     cout<<endl;
     // }
 
-
-
     // int number;
     // cout << "Enter the number you want to print patter for" << "  ";
     // cin >> number;
@@ -176,9 +174,6 @@ int main()
     //     cout << endl;
     // }
 
-
-
-
     // int number;
     // cout << "Enter the number you want to print patter for" << "  ";
     // cin >> number;
@@ -197,8 +192,6 @@ int main()
 
     //     cout << endl;
     // }
-
-
 
     //  int n;
     //  cout<<"enter the number you want to  print pattern for "<<" ";
@@ -229,14 +222,12 @@ int main()
     //     }
 
     //     cout<<endl;
-        
+
     // }
-
-
 
     // for(int row=1; row<=5; row++){
     //     for(int space=1; space<=5-row; space++){
-    //         cout<<"  "; 
+    //         cout<<"  ";
     //     }
 
     //     for(int star=1; star<=(row*2)-1; star++){
@@ -246,6 +237,33 @@ int main()
     //     cout<<endl;
     // }
 
+    // Decimal into binary
 
-    
+    // int number, rem, ans = 0, multiply = 1;
+    // cout << "Enter the number you want to print";
+    // cin >> number;
+    // while (number > 0)
+    // {
+    //     rem = number % 2;
+    //     number /= 2;
+    //     ans += rem * multiply;
+    //     multiply *= 10;
+    // }
+
+    // cout << ans << endl;
+
+    // Binary into decimal
+    // int number, ans = 0, multiply = 1, remainder;
+    // cout << "Enter the binary number you want to convert into decimal";
+    // cin >> number;
+
+    // while (number > 0)
+    // {
+    //     remainder = number % 10;
+    //     number = number / 10;
+    //     ans = remainder * multiply + ans;
+    //     multiply = 2 * multiply;
+    // }
+
+    // cout << ans;
 }
