@@ -48,4 +48,23 @@ int main()
     //     }
     //     cout<<"his number does not lies in 2 ki power";
     // }
+
+
+
+    // Square root leetcode problem
+    int x=90,ans=0;
+    for(int i=1;i<=x/2;i++){
+        ans=i*i;
+        if(ans==x){
+            cout<<i;
+            return 1;
+        }
+        else if(ans<x){
+            continue;
+        }
+        else {
+            cout<<i-1;
+            return i-1;
+        }
+    }
 }
