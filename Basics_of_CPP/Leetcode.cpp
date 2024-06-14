@@ -79,18 +79,5 @@ int main()
     // cout<<convertChar(name);
 
     // Checking if the number is armstrong or not
-    int number;
-    cout << "Enter the number you want to check if it is armstrong or not ";
-    cin >> number;
-    int digits = countDigits(number);
-
-    if (checkArmstrong(number, digits))
-    {
-        cout << number << " is an Armstrong number." << endl;
-    }
-    else
-    {
-        cout << number << " is not an Armstrong number." << endl;
-    }
-    return 0;
+  
 }
