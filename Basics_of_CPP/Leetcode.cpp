@@ -1,6 +1,14 @@
-// In this file i am doing some leetcode questios ractice
 #include <iostream>
+#include <cmath>
 using namespace std;
+char convertChar(char name)
+{
+    char ans = name - 'a' + 'A';
+    return ans;
+}
+
+
+
 int main()
 {
 
@@ -23,8 +31,6 @@ int main()
     // }
     // cout << num;
 
-
-
     // Power of two
     // int n;
     // int devide;
@@ -44,27 +50,47 @@ int main()
     //         if(n==answer){
     //             cout<<"Yes this number" <<n <<"lies in 2 ki power";
     //             return 1;
-    //         } 
+    //         }
     //     }
     //     cout<<"his number does not lies in 2 ki power";
     // }
 
-
-
     // Square root leetcode problem
-    int x=90,ans=0;
-    for(int i=1;i<=x/2;i++){
-        ans=i*i;
-        if(ans==x){
-            cout<<i;
-            return 1;
-        }
-        else if(ans<x){
-            continue;
-        }
-        else {
-            cout<<i-1;
-            return i-1;
-        }
+    // int x=90,ans=0;
+    // for(int i=1;i<=x/2;i++){
+    //     ans=i*i;
+    //     if(ans==x){
+    //         cout<<i;
+    //         return 1;
+    //     }
+    //     else if(ans<x){
+    //         continue;
+    //     }
+    //     else {
+    //         cout<<i-1;
+    //         return i-1;
+    //     }
+    // }
+
+    // converting char 'a' to "A"
+    // char name;
+    // cout<<"Enter the char you want to convert into capital letter ";
+    // cin>>name;
+    // cout<<convertChar(name);
+
+    // Checking if the number is armstrong or not
+    int number;
+    cout << "Enter the number you want to check if it is armstrong or not ";
+    cin >> number;
+    int digits = countDigits(number);
+
+    if (checkArmstrong(number, digits))
+    {
+        cout << number << " is an Armstrong number." << endl;
     }
+    else
+    {
+        cout << number << " is not an Armstrong number." << endl;
+    }
+    return 0;
 }
