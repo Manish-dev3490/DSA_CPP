@@ -10,7 +10,7 @@ int BinarySearch(int arr[], int n, int key)
 
     while (start <= end)
     {
-        mid = (start + end) / 2;
+        mid = start + (end-start)/2;
 
         if (arr[mid] == key)
         {
@@ -19,12 +19,12 @@ int BinarySearch(int arr[], int n, int key)
 
         else if (arr[mid] < key)
         {
-            start = mid + 1;
+            end = mid - 1;
         }
 
         else
         {
-            end = mid - 1;
+            start = mid + 1;
         }
     }
 
