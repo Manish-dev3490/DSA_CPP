@@ -19,14 +19,19 @@ int main()
 
 
     // Logic starts from here brute force with linear search
-    for (int i = 0; i <= n - 1; i++)
-    {
-        if (arr[i] == target){
-            cout<< i;
-        }
+    // for (int i = 0; i <= n - 1; i++)
+    // {
+    //     if (arr[i] == target){
+    //         cout<< i;
+    //     }
 
-        else if(arr[i] < target && arr[i+1] > target){
-            cout<< i+1;
-        }
-    }
+    //     else if(arr[i] < target && arr[i+1] > target){
+    //         cout<< i+1;
+    //     }
+    // }
+
+
+
+    // OPtimized approach with binary search
+    
 }
