@@ -47,15 +47,16 @@ int main(){
 
 
 // playing ointers with arrays just for better understanding of pointers
-int arr[10]={1,2,3,4,5,6,7,8,9,10};
-cout<<*arr+1;
-cout<<endl;
-cout<<*(arr+2);
-cout<<endl;
-cout<<arr+2;
+// int arr[10]={1,2,3,4,5,6,7,8,9,10};
+// cout<<*arr+1;
+// cout<<endl;
+// cout<<*(arr+2);
+// cout<<endl;
+// cout<<arr+2;
 
 
-
+char arr[6]={'a','b','c','d','e'};
+cout<<arr;
    
 
 }
