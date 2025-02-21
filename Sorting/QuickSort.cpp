@@ -2,17 +2,17 @@
 using namespace std;
 
 int partition(int arr[], int start, int end) {
-    int pivot = arr[end]; // Choosing last element as pivot
+    // Choosing last element as pivot
     int position = start; 
 
-    for (int i = start; i < end; i++) { // Loop through the array
-        if (arr[i] <= pivot) {
+    for (int i = start; i <=end; i++) { // Loop through the array
+        if (arr[i] <= arr[end]) {
             swap(arr[position], arr[i]); // Swap smaller elements to the left
             position++;
         }
     }
-    swap(arr[position], arr[end]); // Place pivot in correct position
-    return position; // Return correct pivot index
+    // Place pivot in correct position
+    return position-1; // Return correct pivot index
 }
 
 
