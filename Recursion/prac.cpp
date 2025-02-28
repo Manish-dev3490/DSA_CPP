@@ -1,14 +1,17 @@
 #include<iostream>
 using namespace std;
 
-void p(int arr[],int size,int index){
-    if(index==size){
+void print(int n){
+    if(n==2){
+        cout<<n<<endl;
         return;
     }
-    else {
-        return arr[index]+p(arr,size,index+1);
-    }
+    print(n-2);
+
+    cout <<n<<endl;
+
 }
+
 int main(){
-    
+    print(10);
 }
