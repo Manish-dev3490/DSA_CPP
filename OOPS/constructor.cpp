@@ -19,12 +19,25 @@ public:
     }
 
     // Parameterized constructor
-    customer(string name, int accno, int balance)
+    // customer(string name, int accno, int balance)
+    // {
+    //     this->name = name;
+    //     this->accno = accno;
+    //     this->balance = balance;
+    // }
+
+    
+
+    customer(string name, int accno)
     {
         this->name = name;
         this->accno = accno;
-        this->balance = balance;
     }
+
+     inline customer(string a, int b, int c):name(a),accno(b),balance(c){
+
+     }
+    // Now tehere are many constructor function with same name but with diffrent arguments taking this is knwn as constructor overading...
 
     void display()
     {
@@ -38,9 +51,12 @@ int main()
 
     customer user1("Digvijay Rathee", 17000876, 100);
     customer user2;
+    customer user3("Khushi Satija", 12345678);
     user1.display();
-    cout<<endl;
+    cout << endl;
     user2.display();
+    cout << endl;
+    user3.display();
 
     return 0;
 }
