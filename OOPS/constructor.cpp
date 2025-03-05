@@ -16,7 +16,6 @@ public:
         name = "manish";
         accno = 123456789;
         balance = 100;
-        cout << "Hi manish how are you brother ";
     }
 
     // Parameterized constructor
@@ -25,9 +24,11 @@ public:
         this->name = name;
         this->accno = accno;
         this->balance = balance;
-        cout << this->accno << endl;
-        cout << this->name << endl;
-        cout << this->accno;
+    }
+
+    void display()
+    {
+        cout << name << " " << accno << " " << balance;
     }
 };
 
@@ -37,5 +38,9 @@ int main()
 
     customer user1("Digvijay Rathee", 17000876, 100);
     customer user2;
+    user1.display();
+    cout<<endl;
+    user2.display();
+
     return 0;
 }
