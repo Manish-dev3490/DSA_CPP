@@ -19,6 +19,8 @@ public:
 };
 
 
+
+// This recursive functin is converting array into doubly linked list and inserting nodes into the end 
 Node * ConvertLL(int arra[],int index,int size , Node *head,Node *tail){
     if(index==size)return head;
     if(head==NULL){
@@ -98,13 +100,36 @@ int main()
 
     
 
-    // converting array into linked list using recusrion
-    int arr[4]={2,4,6,8};
-    Node *head=NULL,*tail=NULL;
-    Node *start=ConvertLL(arr,0,4,head,tail);
-    while(start!=NULL){
-        cout<<start->data<<endl;
-        start=start->next;
+    // converting array into linked list using recusrion insertion into the end .....
+    // int arr[4]={2,4,6,8};
+    // Node *head=NULL,*tail=NULL;
+    // Node *start=ConvertLL(arr,0,4,head,tail);
+    // while(start!=NULL){
+    //     cout<<start->data<<endl;
+    //     start=start->next;
+    // }
+
+
+
+    // converting array into linked list using recusrion insertion into the start.....
+    int arra[5]={2,4,6,8,10};
+    Node *head=NULL;
+    for(int i=0;i<5;i++){
+        if(head==NULL){
+            head=new Node(arra[i]);
+        }
+
+        else {
+            Node *temp=new Node(arra[i]);
+            temp->next=head;
+            head->prev=temp;
+            head=temp;
+        }
     }
-    
+    Node *tail=head;
+    while(tail!=NULL){
+        cout<<tail->data<<endl;
+        tail=tail->next;
+    }
+
 }
