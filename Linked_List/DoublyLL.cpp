@@ -52,4 +52,32 @@ int main()
     //     tail=tail->next;
     // }
 
+
+
+    // Convrt array into doubly linked listt 
+    int arra[5]={1,2,3,4,5};
+    Node *head=NULL,*tail=NULL;
+    for(int i=0;i<5;i++){
+        if(head==NULL){
+            head=new Node(arra[i]);
+            tail=head;
+        }
+
+        else {
+            Node *temp=new Node(arra[i]);
+            temp->prev=tail;
+            tail->next=temp;
+            tail=temp;
+        }
+    }
+
+
+    Node *temp=head;
+    while(temp!=NULL){
+        cout<<temp->data;
+        cout<<endl;
+        temp=temp->next;
+    }
+
+
 }
