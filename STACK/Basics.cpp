@@ -32,6 +32,7 @@ public:
         {
             top++;
             arr[top] = value;
+            cout<<value <<"is pushed";
         }
     }
 
@@ -45,6 +46,7 @@ public:
 
         else
         {
+            cout << arr[top] <<"is deleted " << endl;
             top--;
         }
     }
@@ -87,9 +89,7 @@ int main()
     // creating a stack
     Stack s1(10);
     s1.push(4);
+    cout<<endl;
     s1.pop();
-    s1.print();
-    s1.issize();
-    s1.isempty();
     
 }
