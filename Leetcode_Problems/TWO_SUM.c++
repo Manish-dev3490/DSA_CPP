@@ -26,4 +26,22 @@ int main()
     ans.push_back(secondindex);
 
     for(int i=0;i<ans.size();i++)cout<<ans[i]<<" ";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
